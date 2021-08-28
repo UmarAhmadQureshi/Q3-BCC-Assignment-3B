@@ -1,0 +1,123 @@
+(base) umar@umar-VirtualBox:~/Desktop/PIAIC-BCC/truffle-repo$ truffle deploy --network ropsten
+
+Compiling your contracts...
+===========================
+✔ Fetching solc version list from solc-bin. Attempt #1
+> Everything is up to date, there is nothing to compile.
+
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'ropsten-fork'
+> Network id:      3
+> Block gas limit: 9835161 (0x961299)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        10923169
+   > block timestamp:     1630164753
+   > account:             0x81eA18E5427Fc437BF245c1484E8E4BD2885F36A
+   > balance:             4.996724006921097973
+   > gas used:            233854 (0x3917e)
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000467708 ETH
+
+   -------------------------------------
+   > Total cost:         0.000467708 ETH
+
+
+2_deployment_contract.js
+========================
+
+   Deploying 'BuyableToken'
+   ------------------------
+   > block number:        10923171
+   > block timestamp:     1630164801
+   > account:             0x81eA18E5427Fc437BF245c1484E8E4BD2885F36A
+   > balance:             4.993777392921097973
+   > gas used:            1445794 (0x160fa2)
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.002891588 ETH
+
+   -------------------------------------
+   > Total cost:         0.002891588 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.003359296 ETH
+
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 9835161 (0x961299)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x79fef87db358f8c1d94e922750e0dc9ff5b8cf9f41e66c46d3c4bd9527552e5b
+   > Blocks: 3            Seconds: 94
+   > contract address:    0x47dA3fFDD16bcf8535B26AFd507C00A402712811
+   > block number:        10923170
+   > block timestamp:     1630164904
+   > account:             0x81eA18E5427Fc437BF245c1484E8E4BD2885F36A
+   > balance:             4.995940944921848435
+   > gas used:            250154 (0x3d12a)
+   > gas price:           4.999999997 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001250769999249538 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001250769999249538 ETH
+
+
+2_deployment_contract.js
+========================
+
+   Deploying 'BuyableToken'
+   ------------------------
+   > transaction hash:    0xceebae69c1caba5bd05f543a22be7f0fd6389473f363ed6d3cb722d2d2eb4fc0
+   > Blocks: 2            Seconds: 102
+   > contract address:    0x7B7f102402bCf2d75d2dc791c9427E8501e5b296
+   > block number:        10923174
+   > block timestamp:     1630165159
+   > account:             0x81eA18E5427Fc437BF245c1484E8E4BD2885F36A
+   > balance:             4.988141889295449198
+   > gas used:            1544794 (0x17925a)
+   > gas price:           4.900000017 gwei
+   > value sent:          0 ETH
+   > total cost:          0.007569490626261498 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.007569490626261498 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.008820260625511036 ETH
+
+
+
